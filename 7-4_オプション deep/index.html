@@ -11,10 +11,12 @@
 
 <body>
   <div id="app">
-
-
-    <!-- v-preはコンパイルがスキップされてマスタッシュ構文（{{ message }}）がそのまま表示される -->
-    <p v-pre>{{ message }}</p>
+    <ul>
+      <li v-for="color in colors">
+        {{ color.name }}
+      </li>
+    </ul>
+    <button v-on:click="onClick">Click!!</button>
   </div>
   <script src="https://unpkg.com/vue@3.1.5"></script>
   <script src="js/main.js"></script>
