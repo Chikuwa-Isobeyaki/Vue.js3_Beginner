@@ -1,0 +1,16 @@
+
+.large {
+  font-size: 36px;
+}
+
+
+.bg-gray {
+  background-color: gray;
+}
+
+.text-danger {
+  color: red;
+}
+.text-blue {
+  color: blue;
+}
