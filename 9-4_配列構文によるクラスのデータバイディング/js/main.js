@@ -1,7 +1,7 @@
 const app = Vue.createApp({
   data: () =>({
-    largeClass: 'large',
-    dangerClass: 'text-danger'
+    isLarge: true,
+    hasError: true
   }),
 })
 
