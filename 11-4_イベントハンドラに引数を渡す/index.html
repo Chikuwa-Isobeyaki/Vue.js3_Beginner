@@ -11,9 +11,8 @@
 
 <body>
   <div id="app">
-    <p>{{ counter }}</p>
-    <button v-on:click="clickHandler" id="btn">Click</button>
-
+    <button v-on:click="clickHandler('Vue.js')">Click</button>
+    <p>{{ message }}</p>
   </div>
   <script src="https://unpkg.com/vue@3.1.5"></script>
   <script src="js/main.js"></script>
